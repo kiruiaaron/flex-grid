@@ -1,0 +1,97 @@
+.main{
+ align-items: center;
+ justify-content: center;
+ width: 50px auto;
+ margin: 180px;
+}
+
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none !important;
+
+}
+.nav ul li{
+list-style: none;
+text-decoration: none;
+
+}
+.image{grid-area: image;}
+.bright{grid-area: bright;}
+.read{grid-area: read;}
+.black{grid-area: brack;}
+.image1{grid-area: image1;}
+.review1{grid-area: review1;}
+.image2{grid-area: image2;}
+.review2{grid-area: review2;}
+.image3{grid-area: image3;}
+.review3{grid-area: review3;}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:'image image image image image image brack brack brack' 'bright bright bright read read read brack brack brack' 'image1 review1 review1 image2 review2 review2 image3 review3 review3';
+    gap: 20px;
+}
+.black{
+    background-color: black;
+}
+.black h1{
+    color: #EDAB50;
+}
+.black h2{
+    color: #FDFDFC;
+}
+.black p{
+    color: #BABBCF;
+}
+.bright{
+    color: #010618;
+    font-size: 80px;
+    
+}
+.btn{
+    background-color: #F15D51;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 180px;
+    text-align: center;
+}
+.review1 h1{
+    color: #CBC9CE;
+    margin-bottom: 2px;
+    
+}
+.review1 h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+.image1{
+    margin-right: 2px;
+}
+.review2 h1{
+    color: #CBC9CE;
+    margin-bottom: 2px;
+}
+.review2 h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 20px;
+
+}
+.review3 h1{
+    color: #CBC9CE;
+    margin-bottom: 2px;
+}
+.review3 h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 10px;
+
+}
