@@ -2,22 +2,31 @@
  align-items: center;
  justify-content: center;
  width: 50px auto;
- margin: 180px;
+ margin: 250px;
 }
 
 
 .nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     text-decoration: none !important;
 
 }
+.im{
+    margin-right: 440px;
+}
 .nav ul li{
-list-style: none;
-text-decoration: none;
+    color: #7B7881;
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
 
+}
+.nav ul li a{
+    text-decoration: none;
+    color:#7B7881; ;
 }
 .image{grid-area: image;}
 .bright{grid-area: bright;}
@@ -27,7 +36,7 @@ text-decoration: none;
 .review1{grid-area: review1;}
 .image2{grid-area: image2;}
 .review2{grid-area: review2;}
-.image3{grid-area: image3;}
+.imag3{grid-area: image3;}
 .review3{grid-area: review3;}
 
 .grid-container{
@@ -35,8 +44,19 @@ text-decoration: none;
     grid-template-areas:'image image image image image image brack brack brack' 'bright bright bright read read read brack brack brack' 'image1 review1 review1 image2 review2 review2 image3 review3 review3';
     gap: 20px;
 }
+.image{
+    width: 700px;
+    height: 250px;
+}
+.image img{
+    width: 700px;
+    height: 250px;
+}
 .black{
     background-color: black;
+    width: 300px;
+    height: 420px;
+    padding: 20px;
 }
 .black h1{
     color: #EDAB50;
@@ -47,9 +67,17 @@ text-decoration: none;
 .black p{
     color: #BABBCF;
 }
+.black hr{
+    width: 200px;
+    color: #50516A;
+    opacity: 50%;
+}
 .bright{
+    width: 300px;
+    height: 250px;
     color: #010618;
-    font-size: 80px;
+    font-size: 50px;
+    font-weight: 600;
     
 }
 .btn{
@@ -57,41 +85,90 @@ text-decoration: none;
     justify-content: center;
     align-items: center;
     color: #ffff;
-    padding: 5px;
-    margin-top: 20px;
-    margin-right: 180px;
+    padding: 8px;
+    margin-top: 60px;
+    margin-right: 150px;
     text-align: center;
+}
+.review1{
+    width: 200px;
 }
 .review1 h1{
     color: #CBC9CE;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
+    margin-top: 0px;
     
+}
+.review2{
+    width: 200px;
 }
 .review1 h2{
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.review1 p{
+    color: #CBC9CE;
+    margin-top: 5px;
+    padding: 5px;
 }
 .image1{
     margin-right: 2px;
 }
 .review2 h1{
+    margin-top: 0px;
     color: #CBC9CE;
     margin-bottom: 2px;
 }
 .review2 h2{
-    margin-top: 2px;
-    margin-bottom: 2px;
-    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 5px;
 
+}
+.review2 p{
+    color: #CBC9CE;
+    margin-top: 5px;
+    padding: 5px;
+}
+.review3{
+    width: 200px;
 }
 .review3 h1{
     color: #CBC9CE;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 .review3 h2{
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 10px;
+    font-size: 16px;
+
+}
+.review3 p{
+    color: #CBC9CE;
+    margin-top: 5px;
+    padding: 5px;
+}
+.read{
+    width: 300px;
+    margin-top: 10px;
+}
+.image1 img{
+  
+    height: 120px;
+    width: 100px;
+}
+.image2 img{
+    height: 120px;
+    width: 100px;
+
+}
+.imag3 img{
+    height: 120px;
+    width: 100px;
 
 }
